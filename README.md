@@ -139,22 +139,22 @@ review in the database.
 
 #### Customer
 
-- `Customer#full_name`
+- `Customer#full_name` done
   - returns the full name of the customer, with the first name and the last name
     concatenated, Western style.
 - `Customer#favorite_restaurant`
   - returns the restaurant instance that has the highest star rating from this customer
-- `Customer#add_review(restaurant, rating)`
+- `Customer#add_review(restaurant, rating)` done kinda
   - takes a `restaurant` (an instance of the `Restaurant` class) and a rating
   - creates a new review for the restaurant with the given `restaurant_id`
-- `Customer#delete_reviews(restaurant)`
+- `Customer#delete_reviews(restaurant)` done
   - takes a `restaurant` (an instance of the `Restaurant` class) and
   - removes **all** their reviews for this restaurant
   - you will have to delete rows from the `reviews` table to get this to work!
 
 #### Review
 
-- `Review#full_review`
+- `Review#full_review` done
   - should return a string formatted as follows:
 
 ```txt
@@ -163,10 +163,10 @@ Review for {insert restaurant name} by {insert customer's full name}: {insert re
 
 #### Restaurant
 
-- `Restaurant.fanciest`
+- `Restaurant.fanciest` done
   - returns _one_ restaurant instance for the restaurant that has the highest
     price
-- `Restaurant#all_reviews`
+- `Restaurant#all_reviews` done
   - should return an Array of strings with all the reviews for this restaurant
     formatted as follows:
 
